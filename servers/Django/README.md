@@ -1,5 +1,5 @@
 # Django server
-- version: 2.1.5
+- version: 2.1.15
 - WSGI server: gunicorn==20.0.4
 # install
 ```
