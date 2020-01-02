@@ -1,3 +1,6 @@
+# responder server
+- version: 2.0.5
+- ASGI server: uvicorn==0.11.1
 # install
 ```
 $ python -m venv env

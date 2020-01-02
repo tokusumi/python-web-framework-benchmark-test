@@ -1,3 +1,6 @@
+# japronto server
+- version: 0.1.1
+- uvloop==0.7.2
 # install
 ```
 $ python -m venv env
