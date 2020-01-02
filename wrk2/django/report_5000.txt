@@ -1,0 +1,38 @@
+Running 30s test @ http://127.0.0.1:8000/query?id=abc
+  8 threads and 500 connections
+  Thread calibration: mean lat.: 3866.865ms, rate sampling interval: 15958ms
+  Thread calibration: mean lat.: 2455.901ms, rate sampling interval: 12836ms
+  Thread calibration: mean lat.: 3989.803ms, rate sampling interval: 15917ms
+  Thread calibration: mean lat.: 2351.212ms, rate sampling interval: 12967ms
+  Thread calibration: mean lat.: 4425.825ms, rate sampling interval: 15892ms
+  Thread calibration: mean lat.: 2859.532ms, rate sampling interval: 15777ms
+  Thread calibration: mean lat.: 2283.885ms, rate sampling interval: 13828ms
+  Thread calibration: mean lat.: 2561.628ms, rate sampling interval: 13606ms
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    19.30s     5.77s   29.51s    56.89%
+    Req/Sec    10.50      2.29    16.00     87.50%
+  4222 requests in 30.02s, 869.96KB read
+  Socket errors: connect 0, read 2752, write 7, timeout 4842
+Requests/sec:    140.65
+Transfer/sec:     28.98KB
+------------------------------
+5%,10485759
+10%,11558911
+15%,12533759
+20%,13287423
+25%,14000127
+30%,15024127
+35%,16220159
+40%,17268735
+45%,18350079
+50%,18874367
+55%,20299775
+60%,21594111
+65%,22495231
+70%,23445503
+75%,24313855
+80%,25346047
+85%,26411007
+90%,27279359
+99%,28868607
+99.999%,29523967

@@ -1,0 +1,35 @@
+Running 30s test @ http://127.0.0.1:8080/query?id=abc
+  6 threads and 50 connections
+  Thread calibration: mean lat.: 2.014ms, rate sampling interval: 10ms
+  Thread calibration: mean lat.: 1.963ms, rate sampling interval: 10ms
+  Thread calibration: mean lat.: 1.982ms, rate sampling interval: 10ms
+  Thread calibration: mean lat.: 1.964ms, rate sampling interval: 10ms
+  Thread calibration: mean lat.: 1.944ms, rate sampling interval: 10ms
+  Thread calibration: mean lat.: 1.990ms, rate sampling interval: 10ms
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.60ms    1.00ms  15.89ms   85.36%
+    Req/Sec    91.58    102.90   363.00     69.07%
+  15028 requests in 30.05s, 1.66MB read
+Requests/sec:    500.10
+Transfer/sec:     56.65KB
+------------------------------
+5%,551
+10%,714
+15%,842
+20%,944
+25%,1041
+30%,1135
+35%,1214
+40%,1295
+45%,1372
+50%,1451
+55%,1533
+60%,1623
+65%,1710
+70%,1813
+75%,1918
+80%,2059
+85%,2233
+90%,2487
+99%,5323
+99.999%,15895
